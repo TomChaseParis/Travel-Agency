@@ -1,8 +1,9 @@
 import React from 'react';
-import {useState} from "react";
-import {BiSearch} from 'react-icons/bi';
-import {BsPerson} from 'react-icons/bs';
+import { useState } from "react";
+import { BiSearch } from 'react-icons/bi';
+import { BsPerson } from 'react-icons/bs';
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
+import { AiOutlineClose}  from 'react-icons/ai'
 import { FaFacebook, FaInstagram, FaTwitter, FaPinterest, FaYoutube  } from 'react-icons/fa';
 
 import './NavbarStyles.css';
@@ -12,11 +13,10 @@ function Navbar() {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);
 
-
   return (
     <div className={nav ? 'navbar navbar-bg' : 'navbar'}>
-        <div className='logo'>
-            <h2>DELTA.</h2>
+        <div className={nav ? 'logo dark' : 'logo'}>
+            <h2>PARADISE BEACH.</h2>
         </div>
         <ul className='nav-menu'>
             <li>Home</li>
@@ -30,7 +30,8 @@ function Navbar() {
           <BsPerson className='icon' />
         </div>
         <div className="hamburger" onClick={handleNav}>
-          <HiOutlineMenuAlt4 className='icon' />
+          {!nav ? (<HiOutlineMenuAlt4 className='icon' />) : (<AiOutlineClose style={{color: '#000'}} className='icon' />)}
+
         </div>
 
         <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>

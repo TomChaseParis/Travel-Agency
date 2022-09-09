@@ -2,7 +2,6 @@
 
 Build A React JS Website From Scratch - Front-End Travel Website
 
-
 ## Installation of commands
 ### `npx create-react-app ./`
 ### `npm install react-icons`
@@ -13,10 +12,7 @@ Build A React JS Website From Scratch - Front-End Travel Website
 
 ### `Navbar.jsx`
 ### `Hero.jsx`
-### `Navbar.js`
-### `Navbar.js`
-### `Navbar.js`
-### `Navbar.js`
+
 
 
 
