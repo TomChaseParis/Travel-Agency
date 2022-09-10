@@ -9,9 +9,10 @@ Build A React JS Website From Scratch - Front-End Travel Website
 
 
 ## Creation of components
-
 ### `Navbar.jsx`
 ### `Hero.jsx`
+### `Destinations.jsx`
+### `Search.jsx`
 
 
 
