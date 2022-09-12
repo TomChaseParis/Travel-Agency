@@ -13,6 +13,9 @@ Build A React JS Website From Scratch - Front-End Travel Website
 ### `Hero.jsx`
 ### `Destinations.jsx`
 ### `Search.jsx`
+### `Selects.jsx`
+### `SelectsImg.jsx`
+
 
 
 
